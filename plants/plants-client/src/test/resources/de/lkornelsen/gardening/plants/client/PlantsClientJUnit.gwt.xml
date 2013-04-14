@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='de.lkornelsen.gardening.plants.client.PlantsClient' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/PlantsClient/greet" class="de.lkornelsen.gardening.plants.client.server.GreetingServiceImpl" />
+
+</module>

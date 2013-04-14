@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+  <wb-module deploy-name="${module}">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+    <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/gwt"/>
+        <dependent-module archiveName="plants-server-facade-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/plants-server-facade/plants-server-facade">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="plants-server-plant-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/plants-server-plant/plants-server-plant">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="plants-server-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/plants-server-common/plants-server-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="plants-server-transfer-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/plants-server-transfer/plants-server-transfer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    <property name="java-output-path" value="/${module}/target/www/WEB-INF/classes"/>
+        <property name="context-root" value="plants-client"/>
+  </wb-module>
+</project-modules>
